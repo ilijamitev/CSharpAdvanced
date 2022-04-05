@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Exercise.RPS.MainApp", "SEDC.Exercise.RPS.MainApp\SEDC.Exercise.RPS.MainApp.csproj", "{170F01D2-30C5-415F-BC61-0A6126E4B312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Exercise.RPS.GameService", "SEDC.Exercise.RPS.GameService\SEDC.Exercise.RPS.GameService.csproj", "{5E23FB1F-E497-4B87-9A38-3A1B78DF89C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{170F01D2-30C5-415F-BC61-0A6126E4B312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170F01D2-30C5-415F-BC61-0A6126E4B312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170F01D2-30C5-415F-BC61-0A6126E4B312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170F01D2-30C5-415F-BC61-0A6126E4B312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E23FB1F-E497-4B87-9A38-3A1B78DF89C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E23FB1F-E497-4B87-9A38-3A1B78DF89C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E23FB1F-E497-4B87-9A38-3A1B78DF89C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E23FB1F-E497-4B87-9A38-3A1B78DF89C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00986ED1-5EA7-453C-947F-64C1D1150086}
+	EndGlobalSection
+EndGlobal
