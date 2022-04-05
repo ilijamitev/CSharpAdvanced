@@ -31,7 +31,6 @@ namespace SEDC.Exercise.RPS.GameService
                 HelperService.ShowErrorMessage($"The {computerChoice} beats the {inputChoice}. Point to Computer.");
                 StatsService.IncrementComputerScore();
             }
-            // e ako e x-2 neam kvota :D
         }
 
         public static string Battle(string player, string computer)
