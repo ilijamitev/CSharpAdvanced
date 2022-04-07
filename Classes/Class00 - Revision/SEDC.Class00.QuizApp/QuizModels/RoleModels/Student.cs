@@ -11,7 +11,6 @@ namespace QuizModels.RoleModels
     {
         public bool DoneTest { get; set; }
         public int CorrectAnswers = 0;
-
         public Student(string fullName, int password)
         {
             FullName = fullName;

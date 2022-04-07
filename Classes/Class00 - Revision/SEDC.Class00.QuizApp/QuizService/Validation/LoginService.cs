@@ -9,7 +9,6 @@ namespace QuizService
 {
     public class LoginService
     {
-
         public static int LoginTries = 0;
 
         public static void IncrementLoginTries()
@@ -88,22 +87,8 @@ namespace QuizService
                     HelpersService.ShowErrorMessage(ex.Message);
                 }
             }
-
             return new User(fullName, password);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

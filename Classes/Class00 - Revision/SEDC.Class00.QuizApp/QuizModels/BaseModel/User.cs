@@ -11,7 +11,6 @@ namespace QuizModels.BaseModel
     {
         public string FullName { get; set; }
         public int Password { get; set; }
-
         public Role Role { get; set; }
 
         public User()

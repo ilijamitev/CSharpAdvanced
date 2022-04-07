@@ -9,12 +9,10 @@ namespace QuizModels.QuestionsData
     public class QuestionsDatabase
     {
         public static Dictionary<string, List<AnswerData>> QuestionsAndAnswers = new Dictionary<string, List<AnswerData>>();
-
         public QuestionsDatabase()
         {
-            
-        }
 
+        }
         public static void AddQuestions(string question, List<AnswerData> listOfAnswers)
         {
             QuestionsAndAnswers.Add(question, listOfAnswers);
@@ -56,7 +54,6 @@ namespace QuizModels.QuestionsData
             new AnswerData("c: Australia"),
             new AnswerData("d: Niger"),
             });
-
         }
 
     }

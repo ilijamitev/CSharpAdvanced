@@ -10,7 +10,6 @@ namespace QuizService
 {
     public class StudentService
     {
-
         public static void DoQuiz(Student student)
         {
             HelpersService.ShowApprovalMessage($"\nGOOD LUCK WITH THE QUIZ {student.FullName.ToUpper()}!\n");
@@ -46,16 +45,5 @@ namespace QuizService
             }
 
         }
-
-
-
-
-
-
-
-
-
-
-
     }
 }

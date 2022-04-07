@@ -2,10 +2,5 @@
 using QuizService;
 
 Console.Title = "       *** QUIZ APP ***";
-
 MenuService.LoginMenu();
-
-
-
-
 Console.ReadLine();

@@ -51,7 +51,6 @@ namespace QuizService
             ShowEnd();
         }
 
-
         public static void StudentMenu(Student student)
         {
             StudentService.DoQuiz(student);
@@ -63,8 +62,6 @@ namespace QuizService
             Console.Clear();
             HelpersService.ShowApplicationMessages("\n\n\n\n\n        *** THANK YOU FOR USING OUR QUIZ APP ***\n                   Come back soon :)\n\n");
         }
-
-
 
     }
 }

@@ -5,8 +5,6 @@ namespace QuizService
 {
     public class ValidationService
     {
-
-
         public static bool ValidateUserChoice(string inputChoice, string[] validOptions)
         {
             if (validOptions.Contains(inputChoice)) return true;
@@ -27,18 +25,12 @@ namespace QuizService
             return false;
         }
 
-        //public static bool CheckIfStudentDidTest(string fullName, int password)
-        //{
-        //    return UsersDatabase.StudentList.Any(x => x.DoneTest == false);
-        //}
-
         public static User GetUser(string inputChoice, string fullName, int password)
         {
             if (inputChoice == "1") return UsersDatabase.TeacherList.FirstOrDefault(x => x.FullName == fullName && x.Password == password);
             else if (inputChoice == "2") return UsersDatabase.StudentList.FirstOrDefault(x => x.FullName == fullName && x.Password == password);
             return null;
         }
-
 
     }
 }
