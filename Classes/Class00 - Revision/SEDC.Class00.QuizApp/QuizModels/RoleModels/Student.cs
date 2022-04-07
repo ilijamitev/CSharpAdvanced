@@ -9,7 +9,7 @@ namespace QuizModels.RoleModels
 {
     public class Student : User
     {
-        public bool DoneTest = false;
+        public bool DoneTest { get; set; }
         public int CorrectAnswers = 0;
 
         public Student(string fullName, int password)
@@ -17,6 +17,7 @@ namespace QuizModels.RoleModels
             FullName = fullName;
             Password = password;
             Role = Enum.Role.Student;
+            DoneTest = false;
         }
 
     }

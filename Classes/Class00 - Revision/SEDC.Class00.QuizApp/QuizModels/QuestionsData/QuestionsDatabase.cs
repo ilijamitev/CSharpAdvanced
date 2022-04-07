@@ -12,14 +12,13 @@ namespace QuizModels.QuestionsData
 
         public QuestionsDatabase()
         {
-            InitialQuestionDatabase();
+            
         }
 
         public static void AddQuestions(string question, List<AnswerData> listOfAnswers)
         {
             QuestionsAndAnswers.Add(question, listOfAnswers);
         }
-
 
         public static void InitialQuestionDatabase()
         {
@@ -59,8 +58,6 @@ namespace QuizModels.QuestionsData
             });
 
         }
-
-
 
     }
 }
