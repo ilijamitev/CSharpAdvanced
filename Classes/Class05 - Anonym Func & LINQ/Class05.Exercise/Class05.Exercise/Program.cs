@@ -36,4 +36,15 @@ var peopleNames = ModelsDatabase.people.Where(x => names.Contains(x.FirstName)).
 var dogsNames = peopleNames.SelectMany(x => x.Dogs.Where(x => x.Color == "White")).OrderBy(x => x.Name).ToList();
 dogsNames.ForEach(x => Console.WriteLine(x.Name));
 
+
+Console.ReadLine();
+Console.Clear();
+
+
+ModelsDatabase.people.OrderBy(x => x.FirstName).ToList().ForEach(x => Console.WriteLine(x));
+
+
+
+
+
 Console.ReadLine();

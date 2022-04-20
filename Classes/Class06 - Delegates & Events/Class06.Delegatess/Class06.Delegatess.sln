@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{C4753D97-6257-4D58-BC96-1CD0D5BE6D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{AA380BED-F678-403F-99EF-41CD25BBED08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{8248277A-BA3C-4A9D-A412-4B0B2114057C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4753D97-6257-4D58-BC96-1CD0D5BE6D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4753D97-6257-4D58-BC96-1CD0D5BE6D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4753D97-6257-4D58-BC96-1CD0D5BE6D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4753D97-6257-4D58-BC96-1CD0D5BE6D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA380BED-F678-403F-99EF-41CD25BBED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA380BED-F678-403F-99EF-41CD25BBED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA380BED-F678-403F-99EF-41CD25BBED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA380BED-F678-403F-99EF-41CD25BBED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8248277A-BA3C-4A9D-A412-4B0B2114057C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8248277A-BA3C-4A9D-A412-4B0B2114057C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8248277A-BA3C-4A9D-A412-4B0B2114057C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8248277A-BA3C-4A9D-A412-4B0B2114057C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CDF7250-E167-4294-A6EB-58CE30C4EC19}
+	EndGlobalSection
+EndGlobal
