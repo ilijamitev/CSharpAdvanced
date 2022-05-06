@@ -1,0 +1,5 @@
+﻿6:42:26 PM: 1 Add 1 = 2
+6:43:55 PM: 5 Multiply 5 = 25
+6:45:09 PM: 33 Multiply 33 = 1089
+6:46:04 PM: 3 Multiply 3 = 9
+6:47:28 PM: 1 Subtract -22 = 23
