@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Classes/Class10 - Disposing, Nullable etc/Class10.ClassMaterials
+/Classes/PractiseApplications/EXTRAS.txt
