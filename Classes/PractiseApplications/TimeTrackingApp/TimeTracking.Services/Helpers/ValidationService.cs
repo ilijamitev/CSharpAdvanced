@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TimeTracking.Services.Logger;
 
 namespace TimeTracking.Services.Helpers
 {
@@ -33,6 +34,7 @@ namespace TimeTracking.Services.Helpers
                 catch (Exception ex)
                 {
                     HelperService.ErrorMessage(ex.Message);
+                    LoggerService.ErrorLog(ex.Message.ToLower(), ex.Source);
                 }
             }
         }

@@ -1,0 +1,473 @@
+Classes
+|
++---Class00 - Revision
+|   +---SEDC.Class00.Exercise1
+|   |   +---SEDC.Oop.Exercises.sln
+|   |   \---SEDC.Oop.Task01
+|   |       +---Program.cs
+|   |       \---SEDC.Oop.Task01.csproj
+|   +---SEDC.Class00.QuizApp
+|   |   +---QuizApp.Main
+|   |   |   +---Program.cs
+|   |   |   \---QuizApp.Main.csproj
+|   |   +---QuizModels
+|   |   |   +---BaseModel
+|   |   |   |   \---User.cs
+|   |   |   +---Enum
+|   |   |   |   \---Role.cs
+|   |   |   +---QuestionsData
+|   |   |   |   +---AnswerData.cs
+|   |   |   |   \---QuestionsDatabase.cs
+|   |   |   +---QuizModels.csproj
+|   |   |   +---RoleModels
+|   |   |   |   +---Student.cs
+|   |   |   |   \---Teacher.cs
+|   |   |   \---UsersDatabase
+|   |   |       \---UsersDatabase.cs
+|   |   +---QuizService
+|   |   |   +---Helper
+|   |   |   |   \---HelpersService.cs
+|   |   |   +---Menu
+|   |   |   |   \---MenuService.cs
+|   |   |   +---QuizService.csproj
+|   |   |   +---UserService
+|   |   |   |   +---StudentService.cs
+|   |   |   |   \---TeacherService.cs
+|   |   |   \---Validation
+|   |   |       +---LoginService.cs
+|   |   |       \---ValidationService.cs
+|   |   \---SEDC.Class01.QuizApp.sln
+|   \---SEDC.Class00.RockPapperScissors
+|       +---SEDC.Exercise.RockPapperScissors.sln
+|       +---SEDC.Exercise.RPS.GameService
+|       |   +---HelperService.cs
+|       |   +---MenuService.cs
+|       |   +---PlayService.cs
+|       |   +---SEDC.Exercise.RPS.GameService.csproj
+|       |   +---StatsService.cs
+|       |   \---ValidationService.cs
+|       \---SEDC.Exercise.RPS.MainApp
+|           +---Program.cs
+|           \---SEDC.Exercise.RPS.MainApp.csproj
++---Class01 - AbstractClasses & Interfaces
+|   +---Class01 - ExtraExercise
+|   |   +---Class01 - ExtraExercise.sln
+|   |   +---ExtraExercise.Main
+|   |   |   +---ExtraExercise.Main.csproj
+|   |   |   \---Program.cs
+|   |   +---Models
+|   |   |   +---BaseModel
+|   |   |   |   \---Animal.cs
+|   |   |   +---Cat.cs
+|   |   |   +---Dog.cs
+|   |   |   \---Models.csproj
+|   |   \---Service
+|   |       +---Interfaces
+|   |       |   +---IAnimal.cs
+|   |       |   +---ICat.cs
+|   |       |   \---IDog.cs
+|   |       \---Service.csproj
+|   +---SEDC.Class01.Exercise
+|   |   +---MainApp
+|   |   |   +---MainApp.csproj
+|   |   |   \---Program.cs
+|   |   +---SEDC.Class01.Exercise.sln
+|   |   \---ServiceLibrary
+|   |       +---Class1.cs
+|   |       +---Entities
+|   |       |   +---Student.cs
+|   |       |   +---Teacher.cs
+|   |       |   \---User.cs
+|   |       +---Interfaces
+|   |       |   +---IStudent.cs
+|   |       |   +---ITeacher.cs
+|   |       |   \---IUser.cs
+|   |       \---ServiceLibrary.csproj
+|   \---SEDC.Oop.Class01
+|       +---Enteties
+|       |   +---Admin.cs
+|       |   +---Circle.cs
+|       |   +---Developer.cs
+|       |   +---Employee.cs
+|       |   +---Enteties.csproj
+|       |   +---Figuress.cs
+|       |   +---Interfacees
+|       |   |   +---IDeveloper.cs
+|       |   |   +---ITakingNotes.cs
+|       |   |   +---ITester.cs
+|       |   |   \---IUsers.cs
+|       |   +---Pen.cs
+|       |   +---Person.cs
+|       |   +---Squaree.cs
+|       |   +---Tester.cs
+|       |   \---User.cs
+|       +---Interfacess
+|       |   +---Interfacess.csproj
+|       |   \---Program.cs
+|       +---MainApp
+|       |   +---MainApp.csproj
+|       |   \---Program.cs
+|       \---SEDC.Oop.Class01.sln
++---Class02 - Static Classes & Polymorphism
+|   +---Class02.Exercise
+|   |   +---Class02.Exercise.Main
+|   |   |   +---Class02.Exercise.Main.csproj
+|   |   |   +---Dog.cs
+|   |   |   +---DogShelter.cs
+|   |   |   \---Program.cs
+|   |   \---Class02.Exercise.sln
+|   +---Class02.Polymorphism
+|   |   +---Class02.Polymorphism.M
+|   |   |   +---Class02.Polymorphism.M.csproj
+|   |   |   +---Entities
+|   |   |   |   +---Cat.cs
+|   |   |   |   +---Dog.cs
+|   |   |   |   +---MethodPolymorphism.cs
+|   |   |   |   \---Pet.cs
+|   |   |   \---Program.cs
+|   |   \---Class02.Polymorphism.sln
+|   \---Class02.StaticClasses
+|       +---Class02.StaticClasse
+|       |   +---Class02.StaticClasse.csproj
+|       |   +---FirstStaticClass.cs
+|       |   +---Order.cs
+|       |   +---OrdersFakeDB.cs
+|       |   +---OrderStatus.cs
+|       |   +---Program.cs
+|       |   +---StringUtils.cs
+|       |   \---User.cs
+|       \---Class02.StaticClasses.sln
++---Class03 - Generics & Extension
+|   +---Class03.ClassMaterial
+|   |   +---Class03.ClassMaterial
+|   |   |   +---BaseEntity.cs
+|   |   |   +---Class03.ClassMaterial.csproj
+|   |   |   +---GenericClass.cs
+|   |   |   +---GenericDB.cs
+|   |   |   +---GenericMEthodHelper.cs
+|   |   |   +---GenericMethods.cs
+|   |   |   +---NonGenericHelper.cs
+|   |   |   +---Order.cs
+|   |   |   +---Product.cs
+|   |   |   \---Program.cs
+|   |   +---Class03.ClassMaterial.sln
+|   |   \---Class03.Extensionss
+|   |       +---Class03.Extensionss.csproj
+|   |       +---ListExtensions.cs
+|   |       +---Program.cs
+|   |       \---StringExtensions.cs
+|   +---Class03.Exercise
+|   |   +---Class03.Exercise
+|   |   |   +---Class03.Exercise.csproj
+|   |   |   +---Models
+|   |   |   |   +---BaseModel
+|   |   |   |   |   \---Pet.cs
+|   |   |   |   +---Cat.cs
+|   |   |   |   +---Dog.cs
+|   |   |   |   +---Enum
+|   |   |   |   |   \---PetType.cs
+|   |   |   |   \---Fish.cs
+|   |   |   +---PetStore.cs
+|   |   |   \---Program.cs
+|   |   \---Class03.Exercise.sln
+|   +---Class03.ExtraExercise
+|   |   +---Class03.ExtraExercise
+|   |   |   +---BaseModel
+|   |   |   |   \---Shape.cs
+|   |   |   +---Class03.ExtraExercise.csproj
+|   |   |   +---Models
+|   |   |   |   +---Circle.cs
+|   |   |   |   \---Rectangle.cs
+|   |   |   +---PrintShapeInfo.cs
+|   |   |   +---Program.cs
+|   |   |   \---ShapesDB
+|   |   |       \---ShapesDataBase.cs
+|   |   \---Class03.ExtraExercise.sln
+|   +---commnucation-flow.png
+|   \---Generics-visual.png
++---Class04 - Workshop
+|   \---TaxiManager9000
+|       +---TaxiManager.Models
+|       |   +---Car.cs
+|       |   +---Driver.cs
+|       |   +---Enums
+|       |   |   +---Role.cs
+|       |   |   \---Shift.cs
+|       |   +---IModelsID.cs
+|       |   +---TaxiDatabase
+|       |   |   \---TaxiDatabase.cs
+|       |   +---TaxiManager.Models.csproj
+|       |   \---User.cs
+|       +---TaxiManager.Services
+|       |   +---Helpers
+|       |   |   +---DatabaseHelpers.cs
+|       |   |   \---HelpersService.cs
+|       |   +---Interfaces
+|       |   |   +---IAdminService.cs
+|       |   |   +---IMaintenanceService.cs
+|       |   |   +---IManagerService.cs
+|       |   |   \---IMenus.cs
+|       |   +---Login
+|       |   |   \---LoginUser.cs
+|       |   +---Menus
+|       |   |   \---MenuService.cs
+|       |   +---RolesService
+|       |   |   +---AdminService.cs
+|       |   |   +---MaintenanceService.cs
+|       |   |   \---ManagerService.cs
+|       |   +---TaxiManager.Services.csproj
+|       |   \---Validation
+|       |       \---ValidationService.cs
+|       +---TaxiManager9000
+|       |   +---Program.cs
+|       |   \---TaxiManager9000.csproj
+|       \---TaxiManager9000.sln
++---Class05 - Anonym Func & LINQ
+|   +---Class05.AnonymFunctionsLinq
+|   |   +---Class05.AnonymFunc
+|   |   |   +---Class05.AnonymFunc.csproj
+|   |   |   \---Program.cs
+|   |   +---Class05.AnonymFunctionsLinq.sln
+|   |   +---Class05.LinqExamples
+|   |   |   +---Class05.LinqExamples.csproj
+|   |   |   +---Order.cs
+|   |   |   +---OrderStatus.cs
+|   |   |   \---Program.cs
+|   |   \---Class05.Linqq
+|   |       +---Class05.Linqq.csproj
+|   |       \---Program.cs
+|   \---Class05.Exercise
+|       +---Class05.Exercise
+|       |   +---Class05.Exercise.csproj
+|       |   +---Enum
+|       |   |   +---Job.cs
+|       |   |   \---Race.cs
+|       |   +---Models
+|       |   |   +---Dog.cs
+|       |   |   \---Person.cs
+|       |   +---ModelsDB
+|       |   |   \---ModelsDatabase.cs
+|       |   \---Program.cs
+|       \---Class05.Exercise.sln
++---Class06 - Delegates & Events
+|   \---Class06.Delegatess
+|       +---Class06.Delegatess.sln
+|       +---Delegates
+|       |   +---Delegates.csproj
+|       |   \---Program.cs
+|       +---Events
+|       |   +---Entities
+|       |   |   +---Market.cs
+|       |   |   \---User.cs
+|       |   +---Events.csproj
+|       |   \---Program.cs
+|       \---WinFormsApp1
+|           +---Form1.cs
+|           +---Form1.Designer.cs
+|           +---Form1.resx
+|           +---Program.cs
+|           \---WinFormsApp1.csproj
++---Class09 - File System
+|   \---Class09.FileSystemm
+|       +---Class09.FIleSystemm
+|       |   +---Calculate.cs
+|       |   +---Class09.FIleSystemm.csproj
+|       |   +---ConsoleReader.cs
+|       |   +---log.txt
+|       |   +---Logger.cs
+|       |   \---Program.cs
+|       +---Class09.FileSystemm.sln
+|       \---WorkingWithFIles
+|           +---Program.cs
+|           \---WorkingWithFIles.csproj
++---PractiseApplications
+|   \---TimeTrackingApp
+|       +---.vs
+|       |   \---TimeTrackingApp
+|       |       +---DesignTimeBuild
+|       |       |   \---.dtbcache.v2
+|       |       \---v17
+|       |           +---.futdcache.v1
+|       |           \---.suo
+|       +---README.md
+|       +---TimeTracking.Data
+|       |   +---bin
+|       |   |   \---Debug
+|       |   |       \---net6.0
+|       |   |           +---TimeTracking.Data.deps.json
+|       |   |           +---TimeTracking.Data.dll
+|       |   |           +---TimeTracking.Data.pdb
+|       |   |           +---TimeTracking.Models.dll
+|       |   |           \---TimeTracking.Models.pdb
+|       |   +---ModelsDatabase.cs
+|       |   +---obj
+|       |   |   +---Debug
+|       |   |   |   \---net6.0
+|       |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|       |   |   |       +---ref
+|       |   |   |       |   \---TimeTracking.Data.dll
+|       |   |   |       +---refint
+|       |   |   |       |   \---TimeTracking.Data.dll
+|       |   |   |       +---TimeTracking.Data.AssemblyInfo.cs
+|       |   |   |       +---TimeTracking.Data.AssemblyInfoInputs.cache
+|       |   |   |       +---TimeTracking.Data.assets.cache
+|       |   |   |       +---TimeTracking.Data.csproj.AssemblyReference.cache
+|       |   |   |       +---TimeTracking.Data.csproj.BuildWithSkipAnalyzers
+|       |   |   |       +---TimeTracking.Data.csproj.CopyComplete
+|       |   |   |       +---TimeTracking.Data.csproj.CoreCompileInputs.cache
+|       |   |   |       +---TimeTracking.Data.csproj.FileListAbsolute.txt
+|       |   |   |       +---TimeTracking.Data.dll
+|       |   |   |       +---TimeTracking.Data.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   |       +---TimeTracking.Data.GlobalUsings.g.cs
+|       |   |   |       \---TimeTracking.Data.pdb
+|       |   |   +---project.assets.json
+|       |   |   +---project.nuget.cache
+|       |   |   +---TimeTracking.Data.csproj.nuget.dgspec.json
+|       |   |   +---TimeTracking.Data.csproj.nuget.g.props
+|       |   |   \---TimeTracking.Data.csproj.nuget.g.targets
+|       |   \---TimeTracking.Data.csproj
+|       +---TimeTracking.Models
+|       |   +---Activities
+|       |   |   +---Exercising.cs
+|       |   |   +---Hobby.cs
+|       |   |   +---Interfaces
+|       |   |   |   \---IActivity.cs
+|       |   |   +---Reading.cs
+|       |   |   \---Working.cs
+|       |   +---bin
+|       |   |   \---Debug
+|       |   |       \---net6.0
+|       |   |           +---TimeTracking.Models.deps.json
+|       |   |           +---TimeTracking.Models.dll
+|       |   |           \---TimeTracking.Models.pdb
+|       |   +---obj
+|       |   |   +---Debug
+|       |   |   |   \---net6.0
+|       |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|       |   |   |       +---ref
+|       |   |   |       |   \---TimeTracking.Models.dll
+|       |   |   |       +---refint
+|       |   |   |       |   \---TimeTracking.Models.dll
+|       |   |   |       +---TimeTracking.Models.AssemblyInfo.cs
+|       |   |   |       +---TimeTracking.Models.AssemblyInfoInputs.cache
+|       |   |   |       +---TimeTracking.Models.assets.cache
+|       |   |   |       +---TimeTracking.Models.csproj.AssemblyReference.cache
+|       |   |   |       +---TimeTracking.Models.csproj.BuildWithSkipAnalyzers
+|       |   |   |       +---TimeTracking.Models.csproj.CoreCompileInputs.cache
+|       |   |   |       +---TimeTracking.Models.csproj.FileListAbsolute.txt
+|       |   |   |       +---TimeTracking.Models.dll
+|       |   |   |       +---TimeTracking.Models.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   |       +---TimeTracking.Models.GlobalUsings.g.cs
+|       |   |   |       \---TimeTracking.Models.pdb
+|       |   |   +---project.assets.json
+|       |   |   +---project.nuget.cache
+|       |   |   +---TimeTracking.Models.csproj.nuget.dgspec.json
+|       |   |   +---TimeTracking.Models.csproj.nuget.g.props
+|       |   |   \---TimeTracking.Models.csproj.nuget.g.targets
+|       |   +---TimeTracking.Models.csproj
+|       |   \---User.cs
+|       +---TimeTracking.Services
+|       |   +---bin
+|       |   |   \---Debug
+|       |   |       \---net6.0
+|       |   |           +---TimeTracking.Data.dll
+|       |   |           +---TimeTracking.Data.pdb
+|       |   |           +---TimeTracking.Models.dll
+|       |   |           +---TimeTracking.Models.pdb
+|       |   |           +---TimeTracking.Services.deps.json
+|       |   |           +---TimeTracking.Services.dll
+|       |   |           \---TimeTracking.Services.pdb
+|       |   +---Helpers
+|       |   |   +---HelperService.cs
+|       |   |   \---ValidationService.cs
+|       |   +---Interfaces
+|       |   |   +---IAccountManagment.cs
+|       |   |   +---IMenus.cs
+|       |   |   +---IRegisterService.cs
+|       |   |   +---IStatsMenu.cs
+|       |   |   +---ITrackingService.cs
+|       |   |   +---IUserMenuService.cs
+|       |   |   \---IUserStatsService.cs
+|       |   +---LoginRegister
+|       |   |   +---LoginService.cs
+|       |   |   \---RegisterService.cs
+|       |   +---Menu
+|       |   |   +---MenuService.cs
+|       |   |   +---StatsMenuService.cs
+|       |   |   \---UserMenuService.cs
+|       |   +---obj
+|       |   |   +---Debug
+|       |   |   |   \---net6.0
+|       |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|       |   |   |       +---ref
+|       |   |   |       |   \---TimeTracking.Services.dll
+|       |   |   |       +---refint
+|       |   |   |       |   \---TimeTracking.Services.dll
+|       |   |   |       +---TimeTracking.Services.AssemblyInfo.cs
+|       |   |   |       +---TimeTracking.Services.AssemblyInfoInputs.cache
+|       |   |   |       +---TimeTracking.Services.assets.cache
+|       |   |   |       +---TimeTracking.Services.csproj.AssemblyReference.cache
+|       |   |   |       +---TimeTracking.Services.csproj.BuildWithSkipAnalyzers
+|       |   |   |       +---TimeTracking.Services.csproj.CopyComplete
+|       |   |   |       +---TimeTracking.Services.csproj.CoreCompileInputs.cache
+|       |   |   |       +---TimeTracking.Services.csproj.FileListAbsolute.txt
+|       |   |   |       +---TimeTracking.Services.dll
+|       |   |   |       +---TimeTracking.Services.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   |       +---TimeTracking.Services.GlobalUsings.g.cs
+|       |   |   |       \---TimeTracking.Services.pdb
+|       |   |   +---project.assets.json
+|       |   |   +---project.nuget.cache
+|       |   |   +---TimeTracking.Services.csproj.nuget.dgspec.json
+|       |   |   +---TimeTracking.Services.csproj.nuget.g.props
+|       |   |   \---TimeTracking.Services.csproj.nuget.g.targets
+|       |   +---TimeTracking.Services.csproj
+|       |   \---UserService
+|       |       +---AccountService.cs
+|       |       +---TrackingService.cs
+|       |       \---UserStatisticService.cs
+|       +---TimeTrackingApp
+|       |   +---bin
+|       |   |   \---Debug
+|       |   |       \---net6.0
+|       |   |           +---TimeTracking.Data.dll
+|       |   |           +---TimeTracking.Data.pdb
+|       |   |           +---TimeTracking.Models.dll
+|       |   |           +---TimeTracking.Models.pdb
+|       |   |           +---TimeTracking.Services.dll
+|       |   |           +---TimeTracking.Services.pdb
+|       |   |           +---TimeTrackingApp.deps.json
+|       |   |           +---TimeTrackingApp.dll
+|       |   |           +---TimeTrackingApp.exe
+|       |   |           +---TimeTrackingApp.pdb
+|       |   |           \---TimeTrackingApp.runtimeconfig.json
+|       |   +---obj
+|       |   |   +---Debug
+|       |   |   |   \---net6.0
+|       |   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|       |   |   |       +---apphost.exe
+|       |   |   |       +---ref
+|       |   |   |       |   \---TimeTrackingApp.dll
+|       |   |   |       +---refint
+|       |   |   |       |   \---TimeTrackingApp.dll
+|       |   |   |       +---TimeTrackingApp.AssemblyInfo.cs
+|       |   |   |       +---TimeTrackingApp.AssemblyInfoInputs.cache
+|       |   |   |       +---TimeTrackingApp.assets.cache
+|       |   |   |       +---TimeTrackingApp.csproj.AssemblyReference.cache
+|       |   |   |       +---TimeTrackingApp.csproj.BuildWithSkipAnalyzers
+|       |   |   |       +---TimeTrackingApp.csproj.CopyComplete
+|       |   |   |       +---TimeTrackingApp.csproj.CoreCompileInputs.cache
+|       |   |   |       +---TimeTrackingApp.csproj.FileListAbsolute.txt
+|       |   |   |       +---TimeTrackingApp.dll
+|       |   |   |       +---TimeTrackingApp.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   |       +---TimeTrackingApp.genruntimeconfig.cache
+|       |   |   |       +---TimeTrackingApp.GlobalUsings.g.cs
+|       |   |   |       \---TimeTrackingApp.pdb
+|       |   |   +---project.assets.json
+|       |   |   +---project.nuget.cache
+|       |   |   +---TimeTrackingApp.csproj.nuget.dgspec.json
+|       |   |   +---TimeTrackingApp.csproj.nuget.g.props
+|       |   |   \---TimeTrackingApp.csproj.nuget.g.targets
+|       |   +---Program.cs
+|       |   \---TimeTrackingApp.csproj
+|       \---TimeTrackingApp.sln
+\---writehere.txt

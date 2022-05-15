@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TimeTracking.Data;
+﻿using TimeTracking.Data;
 using TimeTracking.Models;
 using TimeTracking.Services.Helpers;
 using TimeTracking.Services.Interfaces;
+using TimeTracking.Services.Logger;
 using TimeTracking.Services.LoginRegister;
 
 namespace TimeTracking.Services.Menu
 {
     public class MenuService : IMenus
     {
+        LoggerService initLogger = new();
+        DatabaseService databaseService = new();
+
         public void StartApp()
         {
             try
@@ -21,9 +20,7 @@ namespace TimeTracking.Services.Menu
             }
             catch (Exception ex)
             {
-                HelperService.ErrorMessage(ex.Message);
-                //Logger.ErrorLog(ex.Message);
-                //Logger.RegisterLog(ex.Message); 
+                LoggerService.ErrorLog(ex.Message, ex.Source);
             }
         }
 
@@ -33,6 +30,7 @@ namespace TimeTracking.Services.Menu
             {
                 Console.Clear();
                 HelperService.ApplicationMessage("\n    ***Welcome to TimeTrackingApp***\n\n1.Login\n2.Register\n3.Exit");
+                databaseService.GetFromDatabase();
                 int inputChoice = ValidationService.ValidInputChoice(1, 3);
                 if (inputChoice == 1) LoginMenu();
                 if (inputChoice == 2) RegisterMenu();
@@ -90,6 +88,7 @@ namespace TimeTracking.Services.Menu
                     User logedUser = loginService.EnterPassword(username);
                     HelperService.ApprovalMessage($"\n\n    Welcome User {logedUser.FullName}.");
                     logedUser.IsActive = true;
+                    LoggerService.LoginLog(logedUser);
                     Console.ReadLine();
                     UserMenu(logedUser);
                     #region justToCheck
@@ -132,6 +131,7 @@ namespace TimeTracking.Services.Menu
         {
             Console.Clear();
             HelperService.ApplicationMessage("\n\n\n\n\n\n             *** THANK YOU FOR USING OUR APP ***");
+            databaseService.SaveToDatabase();
             Console.ReadLine();
             Environment.Exit(0);
         }

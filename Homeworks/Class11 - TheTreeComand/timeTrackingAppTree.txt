@@ -1,0 +1,190 @@
+TimeTrackingApp
+|
++---.vs
+|   \---TimeTrackingApp
+|       +---DesignTimeBuild
+|       |   \---.dtbcache.v2
+|       \---v17
+|           +---.futdcache.v1
+|           \---.suo
++---README.md
++---TimeTracking.Data
+|   +---bin
+|   |   \---Debug
+|   |       \---net6.0
+|   |           +---TimeTracking.Data.deps.json
+|   |           +---TimeTracking.Data.dll
+|   |           +---TimeTracking.Data.pdb
+|   |           +---TimeTracking.Models.dll
+|   |           \---TimeTracking.Models.pdb
+|   +---ModelsDatabase.cs
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net6.0
+|   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|   |   |       +---ref
+|   |   |       |   \---TimeTracking.Data.dll
+|   |   |       +---refint
+|   |   |       |   \---TimeTracking.Data.dll
+|   |   |       +---TimeTracking.Data.AssemblyInfo.cs
+|   |   |       +---TimeTracking.Data.AssemblyInfoInputs.cache
+|   |   |       +---TimeTracking.Data.assets.cache
+|   |   |       +---TimeTracking.Data.csproj.AssemblyReference.cache
+|   |   |       +---TimeTracking.Data.csproj.BuildWithSkipAnalyzers
+|   |   |       +---TimeTracking.Data.csproj.CopyComplete
+|   |   |       +---TimeTracking.Data.csproj.CoreCompileInputs.cache
+|   |   |       +---TimeTracking.Data.csproj.FileListAbsolute.txt
+|   |   |       +---TimeTracking.Data.dll
+|   |   |       +---TimeTracking.Data.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       +---TimeTracking.Data.GlobalUsings.g.cs
+|   |   |       \---TimeTracking.Data.pdb
+|   |   +---project.assets.json
+|   |   +---project.nuget.cache
+|   |   +---TimeTracking.Data.csproj.nuget.dgspec.json
+|   |   +---TimeTracking.Data.csproj.nuget.g.props
+|   |   \---TimeTracking.Data.csproj.nuget.g.targets
+|   \---TimeTracking.Data.csproj
++---TimeTracking.Models
+|   +---Activities
+|   |   +---Exercising.cs
+|   |   +---Hobby.cs
+|   |   +---Interfaces
+|   |   |   \---IActivity.cs
+|   |   +---Reading.cs
+|   |   \---Working.cs
+|   +---bin
+|   |   \---Debug
+|   |       \---net6.0
+|   |           +---TimeTracking.Models.deps.json
+|   |           +---TimeTracking.Models.dll
+|   |           \---TimeTracking.Models.pdb
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net6.0
+|   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|   |   |       +---ref
+|   |   |       |   \---TimeTracking.Models.dll
+|   |   |       +---refint
+|   |   |       |   \---TimeTracking.Models.dll
+|   |   |       +---TimeTracking.Models.AssemblyInfo.cs
+|   |   |       +---TimeTracking.Models.AssemblyInfoInputs.cache
+|   |   |       +---TimeTracking.Models.assets.cache
+|   |   |       +---TimeTracking.Models.csproj.AssemblyReference.cache
+|   |   |       +---TimeTracking.Models.csproj.BuildWithSkipAnalyzers
+|   |   |       +---TimeTracking.Models.csproj.CoreCompileInputs.cache
+|   |   |       +---TimeTracking.Models.csproj.FileListAbsolute.txt
+|   |   |       +---TimeTracking.Models.dll
+|   |   |       +---TimeTracking.Models.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       +---TimeTracking.Models.GlobalUsings.g.cs
+|   |   |       \---TimeTracking.Models.pdb
+|   |   +---project.assets.json
+|   |   +---project.nuget.cache
+|   |   +---TimeTracking.Models.csproj.nuget.dgspec.json
+|   |   +---TimeTracking.Models.csproj.nuget.g.props
+|   |   \---TimeTracking.Models.csproj.nuget.g.targets
+|   +---TimeTracking.Models.csproj
+|   \---User.cs
++---TimeTracking.Services
+|   +---bin
+|   |   \---Debug
+|   |       \---net6.0
+|   |           +---TimeTracking.Data.dll
+|   |           +---TimeTracking.Data.pdb
+|   |           +---TimeTracking.Models.dll
+|   |           +---TimeTracking.Models.pdb
+|   |           +---TimeTracking.Services.deps.json
+|   |           +---TimeTracking.Services.dll
+|   |           \---TimeTracking.Services.pdb
+|   +---Helpers
+|   |   +---HelperService.cs
+|   |   \---ValidationService.cs
+|   +---Interfaces
+|   |   +---IAccountManagment.cs
+|   |   +---IMenus.cs
+|   |   +---IRegisterService.cs
+|   |   +---IStatsMenu.cs
+|   |   +---ITrackingService.cs
+|   |   +---IUserMenuService.cs
+|   |   \---IUserStatsService.cs
+|   +---LoginRegister
+|   |   +---LoginService.cs
+|   |   \---RegisterService.cs
+|   +---Menu
+|   |   +---MenuService.cs
+|   |   +---StatsMenuService.cs
+|   |   \---UserMenuService.cs
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net6.0
+|   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|   |   |       +---ref
+|   |   |       |   \---TimeTracking.Services.dll
+|   |   |       +---refint
+|   |   |       |   \---TimeTracking.Services.dll
+|   |   |       +---TimeTracking.Services.AssemblyInfo.cs
+|   |   |       +---TimeTracking.Services.AssemblyInfoInputs.cache
+|   |   |       +---TimeTracking.Services.assets.cache
+|   |   |       +---TimeTracking.Services.csproj.AssemblyReference.cache
+|   |   |       +---TimeTracking.Services.csproj.BuildWithSkipAnalyzers
+|   |   |       +---TimeTracking.Services.csproj.CopyComplete
+|   |   |       +---TimeTracking.Services.csproj.CoreCompileInputs.cache
+|   |   |       +---TimeTracking.Services.csproj.FileListAbsolute.txt
+|   |   |       +---TimeTracking.Services.dll
+|   |   |       +---TimeTracking.Services.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       +---TimeTracking.Services.GlobalUsings.g.cs
+|   |   |       \---TimeTracking.Services.pdb
+|   |   +---project.assets.json
+|   |   +---project.nuget.cache
+|   |   +---TimeTracking.Services.csproj.nuget.dgspec.json
+|   |   +---TimeTracking.Services.csproj.nuget.g.props
+|   |   \---TimeTracking.Services.csproj.nuget.g.targets
+|   +---TimeTracking.Services.csproj
+|   \---UserService
+|       +---AccountService.cs
+|       +---TrackingService.cs
+|       \---UserStatisticService.cs
++---TimeTrackingApp
+|   +---bin
+|   |   \---Debug
+|   |       \---net6.0
+|   |           +---TimeTracking.Data.dll
+|   |           +---TimeTracking.Data.pdb
+|   |           +---TimeTracking.Models.dll
+|   |           +---TimeTracking.Models.pdb
+|   |           +---TimeTracking.Services.dll
+|   |           +---TimeTracking.Services.pdb
+|   |           +---TimeTrackingApp.deps.json
+|   |           +---TimeTrackingApp.dll
+|   |           +---TimeTrackingApp.exe
+|   |           +---TimeTrackingApp.pdb
+|   |           \---TimeTrackingApp.runtimeconfig.json
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net6.0
+|   |   |       +---.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|   |   |       +---apphost.exe
+|   |   |       +---ref
+|   |   |       |   \---TimeTrackingApp.dll
+|   |   |       +---refint
+|   |   |       |   \---TimeTrackingApp.dll
+|   |   |       +---TimeTrackingApp.AssemblyInfo.cs
+|   |   |       +---TimeTrackingApp.AssemblyInfoInputs.cache
+|   |   |       +---TimeTrackingApp.assets.cache
+|   |   |       +---TimeTrackingApp.csproj.AssemblyReference.cache
+|   |   |       +---TimeTrackingApp.csproj.BuildWithSkipAnalyzers
+|   |   |       +---TimeTrackingApp.csproj.CopyComplete
+|   |   |       +---TimeTrackingApp.csproj.CoreCompileInputs.cache
+|   |   |       +---TimeTrackingApp.csproj.FileListAbsolute.txt
+|   |   |       +---TimeTrackingApp.dll
+|   |   |       +---TimeTrackingApp.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       +---TimeTrackingApp.genruntimeconfig.cache
+|   |   |       +---TimeTrackingApp.GlobalUsings.g.cs
+|   |   |       \---TimeTrackingApp.pdb
+|   |   +---project.assets.json
+|   |   +---project.nuget.cache
+|   |   +---TimeTrackingApp.csproj.nuget.dgspec.json
+|   |   +---TimeTrackingApp.csproj.nuget.g.props
+|   |   \---TimeTrackingApp.csproj.nuget.g.targets
+|   +---Program.cs
+|   \---TimeTrackingApp.csproj
+\---TimeTrackingApp.sln
