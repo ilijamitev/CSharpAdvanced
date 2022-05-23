@@ -1,7 +1,10 @@
-﻿namespace TimeTracking.Models
+﻿using System.Text.Json.Serialization;
+
+namespace TimeTracking.Models
 {
     public class User
-    {
+    { 
+       // [JsonIgnore]
         public int Id { get; set; }
         public static int IdGenerator { get; set; } = 0;
         public string FirstName { get; set; }

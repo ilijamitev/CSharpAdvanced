@@ -26,11 +26,11 @@ namespace TimeTracking.Services.Menu
 
         public void StartMenu()
         {
+            databaseService.GetFromDatabase();
             while (true)
             {
                 Console.Clear();
                 HelperService.ApplicationMessage("\n    ***Welcome to TimeTrackingApp***\n\n1.Login\n2.Register\n3.Exit");
-                databaseService.GetFromDatabase();
                 int inputChoice = ValidationService.ValidInputChoice(1, 3);
                 if (inputChoice == 1) LoginMenu();
                 if (inputChoice == 2) RegisterMenu();

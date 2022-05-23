@@ -15,7 +15,6 @@ namespace TreeComandService
 
         internal void ShowFolderTree(List<FileSystemInfo> filesAndFolders, string path = "", bool last = false, bool first = true)
         {
-            // StringBuilder stringBuilder = new();
             if (first)
             {
                 HelperService.ShowRootFolder($"{_folderName}\n");

@@ -18,7 +18,6 @@ namespace TimeTracking.Services.Logger
             }
         }
 
-
         public static void ErrorLog(string error, string source)
         {
             string errorLogPath = $@"{loggerDirPath}/errorLog.txt";

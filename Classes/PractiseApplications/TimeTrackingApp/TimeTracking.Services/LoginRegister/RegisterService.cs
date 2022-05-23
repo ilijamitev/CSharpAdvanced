@@ -102,11 +102,11 @@ namespace TimeTracking.Services.LoginRegister
                     {
                         HelperService.ThrowException("ENTER A VALUE!");
                     }
-                    if (CheckIfUsernameExists(username))
+                    else if (CheckIfUsernameExists(username))
                     {
                         HelperService.ThrowException("USERNAME ALREADY TAKEN!");
                     }
-                    if (username.Length < 5)
+                    else if (username.Length < 5)
                     {
                         HelperService.ThrowException("USERNAME MUST HAVE MIN 5 CHARACTERS!");
                     }
@@ -114,6 +114,7 @@ namespace TimeTracking.Services.LoginRegister
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine("Hi from registerService");
                     HelperService.ErrorMessage(ex.Message);
                 }
             }
