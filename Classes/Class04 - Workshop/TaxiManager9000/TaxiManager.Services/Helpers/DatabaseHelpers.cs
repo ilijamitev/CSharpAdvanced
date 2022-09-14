@@ -46,7 +46,7 @@ namespace TaxiManager.Services
             }
         }
 
-        public static List<Car> AvailableCars(Shift shift)
+        public static List<Car> GetAvailableCars(Shift shift)
         {
             return TaxiDatabase.CarsList.Where(car => (car.AsignedDrivers.Count == 0 && car.LicensePlateExpieryDate > DateTime.Today) || (car.AsignedDrivers.Count != 0 && car.AsignedDrivers.All(x => x.Shift != shift) && car.LicensePlateExpieryDate > DateTime.Today)).ToList();
         }

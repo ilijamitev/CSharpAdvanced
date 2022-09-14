@@ -78,7 +78,7 @@ namespace TaxiManager.Services
                 int driverId = ValidationService.GetValidId(unAssignedDrivers);
                 Driver selectedDriver = TaxiDatabase.DriversList.FirstOrDefault(x => x.Id == driverId);
                 Shift shiftChoice = GetAShift();
-                List<Car> availableCars = DatabaseHelpers.AvailableCars(shiftChoice);
+                List<Car> availableCars = DatabaseHelpers.GetAvailableCars(shiftChoice);
                 if (availableCars.Count == 0)
                 {
                     HelpersService.ShowRedText($"SORRY! NO CARS AVAILABLE FOR THE {shiftChoice} SHIFT!");
